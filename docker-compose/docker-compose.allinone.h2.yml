@@ -41,6 +41,6 @@ services:
       ORG_OPENCASTPROJECT_SECURITY_DIGEST_PASS: CHANGE_ME
       ELASTICSEARCH_SERVER_HOST: opensearch
     ports:
-      - "8080:8080"
+      - "10.1.51.217:80:8080"
     volumes:
       - data:/data
